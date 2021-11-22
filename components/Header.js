@@ -39,7 +39,7 @@ function Header() {
                     <input
                     placeholder="Search"
                     type="text"
-                    className=" bg-gray-50 block w-full h-7 pl-10 sm:text-sm rounded-lg"
+                    className=" bg-gray-100 shadow-sm block w-full h-7 pl-10 sm:text-sm rounded-lg"
                     />
                 </div>
             </div>
