@@ -45,15 +45,22 @@ function Header() {
             </div>
 
             {/* Kanan Icon */}
-            <div className="flex items-center justify-end space-x-4">
+            <div className="flex items-center justify-end space-x-4 mt-2">
 
-                <HomeIcon className="h-8 w-8 "/>
-                <PaperAirplaneIcon className="h-8 w-8 "/>
-                <PlusCircleIcon className="h-8 w-8 "/>
-                <UserGroupIcon className="h-8 w-8 "/>
-                <HeartIcon className="h-8 w-8 "/>
+                <HomeIcon className="navBtn"/>
+
+                <div className="relative navBtn">
+                  <PaperAirplaneIcon className="navBtn rotate-45"/>
+                      <div className="absolute -top-1 -right-2 text-xs w-5 h-5 text-white bg-red-500 rounded-full flex justify-center animate-pulse">
+                        3
+                      </div>
+                </div>
+                <PlusCircleIcon className=" navBtn"/>
+                <UserGroupIcon className=" navBtn"/>
+                <HeartIcon className=" navBtn"/>
                 <MenuIcon className="md:hidden h-8 w-8"/>
 
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQEfaiwz-tKQeA/profile-displayphoto-shrink_200_200/0/1636651890965?e=1643241600&v=beta&t=29ucUrLaoAtlzkCA4AS8hmiZFzPm0aOC7iwG9haAL_k" className="h-8 rounded-full cursor-pointer" /> 
               
             </div>
 
